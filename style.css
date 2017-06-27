@@ -98,6 +98,7 @@ p{
 #about,#home{
     background-repeat:no-repeat
 }
+
 #home{
     background:url(parent.jpg) center center no-repeat fixed;
     -webkit-background-size:cover;
@@ -116,7 +117,11 @@ p{
 .apply{
     padding:20px;border:1px solid #DB630D;background:##ef7cbd
 }
-#whycare,a:hover .apply{
+#whycare{
+    background:url(side.jpg);
+    height: 100%;
+}
+a:hover .apply{
     background:#9b1cae
 }
 a:hover .apply{
