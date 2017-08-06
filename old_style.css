@@ -43,13 +43,14 @@ q:after,q:before{
     content:''
 }
 body{
-        font-family:'Fauna One',sans-serif;
-        color:#fff
+    font-family:'Fauna One',sans-serif;
+    color:#fff;
 }
 .wrap{
     margin-left:auto;
     margin-right:auto;
-    width:960px;position:relative
+    width:960px;
+    position:relative
 }
 .content,.intro p{
     margin:0 auto;width:50%
@@ -87,11 +88,11 @@ p{
 .section{
     text-align:center;
     min-height:95vh;
-
 }
 #about,#faq{
     text-align:left
 }
+
 .content{
     padding-top:10%
 }
@@ -109,7 +110,11 @@ p{
     height:65vh
 }
 #homediv{
-    width:100vw;height:50vh;background-color:#fff;position:absolute;top:0
+    width:100vw;
+    height:50vh;
+    background-color:#fff;
+    position:absolute;
+    top:0;
 }
 .apply,a:hover .apply{
     color:#fff;transition:.4s all
@@ -156,16 +161,7 @@ a:hover .apply{
     height:4em;
     margin-bottom:1.7em
 }
-#whycare h1{
-    color:#fff
-}
-#whycare h6{
-    color:#fff;
-    padding:0 2% 0 0}
-#whycare a{
-    color:#ef7cbd
-}
-#whycare .content{
+.content{
     padding-top:6%;
     width:30%
 }
